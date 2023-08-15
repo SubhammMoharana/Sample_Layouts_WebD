@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #edf1f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color: rgb(18,155,155);
+    padding: 4px 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 600;
+    width: fit-content;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+nav .logo{
+    font-weight: 700;
+    font-size: 30px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+.search-field{
+    display: flex;
+    gap: 30px;
+}
+.hero-section
+{
+    display: flex;
+    align-items: center;
+    margin-left: 180px;
+    justify-items: center
+}
+.left h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    /* margin-left: 30px; */
+}
+.left h1 span{
+    color: rgb(18,155,155);
+    font-weight: 900;
+    font-size: 2.5rem;
+    background-color: rgb(151, 196, 181);
+    font-family: 'Roboto Slab', serif;
+}
+.left p{
+    font-weight: 500;
+}
+.left p span{
+    font-weight: 600;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(18,155,155);
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 90px;
+}
+.right btns{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 30px;
+}
+.right img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+footer{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+footer p{
+    font-weight: 600;
+}
+footer ul{
+    display: flex;
+    gap: 30px;
+    justify-items: center;
+    font-size: large;
+}
+footer ul li i:hover{
+    /* text-decoration: solid; */
+    font-weight: 700;
+    background-color: rgb(233, 225, 225);
+    font-size: 20px;
+}
