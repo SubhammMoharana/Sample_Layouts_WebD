@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    /* width: 100%; */
+    padding: 0 60px 0 0;
+    height: 15vh;
+    /* margin-top: 10px; */
+}
+nav .logo{
+    display: flex;
+    margin-left: 55px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 20px;
+}
+nav ul li{
+    list-style: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    text-align: center;
+    margin-left: 493px;
+    padding: 10px 21px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    background-color: #5955b3;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+
+}
+.btn:hover{
+    cursor: pointer;
+    /* border: 1px solid black; */
+    font-weight: 650;
+    background-color: rgb(86, 205, 86);
+    color: black;
+
+
+
+}
+.left{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 55px;
+    margin-left: 55px;
+}
+.head {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 60px;
+    line-height: 74px;
+    color: #3c2f60;
+  }
+.left div p{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: #828282;
+    margin-top: 28px;
+}
+.left div button{
+    margin-top: 40px;
+}
+.right{
+    width: 60%;
+    margin-left: 520px;
+    height: 30px;
+    display: flex;
+    align-items: end;
+    /* margin-right: 200px; */
+    margin-top: 90px;
+    justify-content: space-between;
+}
+.right img{
+    height: 583px;
+    width: 800px;
+}
+body{
+    background-color: #f0eff3;
+}
+.btn1{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    padding: 6px 15px;
+    font-weight: 800;
+    background-color: #5955b3;
+    color: #ffffff;
+    border-radius: 9px;
+    cursor: pointer;
+    border: none;
+    
+}
+.btn1:hover{
+    cursor: pointer;
+    /* border: 1px solid black; */
+    font-weight: 650;
+    background-color: rgb(86, 205, 86);
+}
+.left h1 span{
+    color: #5955b3;
+    font-weight: 990;
+}
