@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #111827;
+    color: white;
+}
+.list ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.top{
+    margin: 0px;
+}
+img[alt="menu"]{
+    width: 20px;
+    display: none;
+}
+.home{
+    background: rgb(100, 100, 224);
+    padding: 5px 8px;
+    border-radius: 15px;
+}
+.waving{
+    display: flex;
+    gap: 10px;
+}
+.waving h3{
+    font-size: 35px;
+}
+img[alt="hello"]{
+    height: 45px;
+}
+img[alt="pc-image"]{
+    width: 30vw;
+}
+img[alt="project-image"]{
+    width: 20vw;
+}
+.left{
+    margin-top: 20vh;
+    margin-left: 20vw;
+    margin-right: 10px;
+}
+.text h1{
+    font-size: 60px;
+}
+.text h2{
+    font-size: 35px;
+    margin-top: 10px;
+    color: rgb(58, 223, 58);
+}
+.intro{
+    display: flex;
+}
+.right img:hover{
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    flex-direction: column;
+    align-items: center;
+}
+.allprojects{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+.project p{
+    display: flex;
+    justify-content: center;
+}
+.project_heading h1{
+    font-size: 40px;
+}
+.project_heading{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.divider{
+    height: 10px;
+    width: 140px;
+    background-color: blue;
+    border-radius: 20px;
+    
+}
+.divider1{
+    height: 10px;
+    width: 210px;
+    background-color: blue;
+    border-radius: 20px;
+}
+.project:hover{
+    cursor: pointer;
+}
+img[alt="git"]{
+    height: 30px;
+}
+img[alt="link"]{
+    height: 30px;
+}
+img[alt="out"]{
+    height: 30px;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.foot1 h1{
+    font-size: 40px;
+}
+.social{
+    display: flex;
+    margin-top: 30px;
+    gap: 15px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 576px){
+    .list{
+        display: none;
+    }
+    img[alt="menu"]{
+        display: block;
+        margin-top: 20px;
+        margin-left: 20px;
+        cursor: pointer;
+
+    }
+    .intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        
+    }
+    img[alt="pc-image"]
+    {
+        width: 60vw;
+        display: flex;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+    }
+    img[alt="hello"]
+    {
+       width: 40px;
+       height: 40px;
+    }
+    .waving{
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+    }
+    .right{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .waving h3{
+        font-size: 25px;   
+    }
+    .text h1{
+        font-size: 40px;
+    }
+    .text h2{
+        font-size: 25px;
+    }
+    .allprojects{
+       
+        display: flex;
+        flex-direction: column;
+    }
+    .project img{
+        height: 50vh;
+        width: 60vw;
+    }
+}
