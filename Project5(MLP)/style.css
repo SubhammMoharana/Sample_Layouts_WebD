@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+.list ul{
+    display: flex;
+    gap: 40px;
+    margin-right: 50px;
+    cursor: pointer;
+    
+}
+.list ul li{
+    list-style: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+img[alt="logo"]
+{
+    height: 50px;
+    margin-left: 30px;
+}
+.left{
+    display: flex; 
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+img[alt="stethoscope"]
+{
+    position: absolute;
+    left: 20vw;
+    top: 20vh;
+    /* right: 30px; */
+    width: 40vw;
+}
+img[alt="topAngle"]
+{
+    position: relative;
+    right: 300px;
+}
+.left h1{
+    font-size: 60px;
+    width: 40vw;
+    font-weight: 900;
+}
+.left p{
+    margin-top: 30px;
+    color: #7c7c7c;
+    font-size: 18px;
+    position: relative;
+    left: 10%;
+}
+.button{
+    border: none;
+    color: white;
+    background-color: #20bc7e;
+    padding: 15px 40px;
+    border-radius: 40px;
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+    right: 9vw;
+}
+img[alt="bottomAngle"]
+{
+    position: relative;
+    top: 10px;
+    left: 22vw;
+}
+img[alt="mouse"]
+{
+    position: relative;
+    left: 25vw;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+/* Right se 0 rahega suru se */
+.greenBox, 
+  .yellowBox {
+    position: absolute;
+    right: 0;
+}
+.greenBox {
+    width: 35%;
+    bottom: 30px;
+}
+  
+.yellowBox {
+    width: 30%;
+    bottom: 50px;
+}
+/* GREAT LOGIC */
+.doctor {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 90%;
+  }
