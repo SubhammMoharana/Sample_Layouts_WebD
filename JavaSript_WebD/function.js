@@ -1,6 +1,7 @@
 function greet() //function without any parameter
 {
     console.log("Hello");
+    //return "Hello"
 }
 function sqr(x)
 {
