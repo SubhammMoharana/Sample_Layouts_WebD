@@ -20,4 +20,3 @@ function add(x=10, y = 9)
 }
 console.log(add(1)); //x=1,y=9
 
-//unlimited parameter
