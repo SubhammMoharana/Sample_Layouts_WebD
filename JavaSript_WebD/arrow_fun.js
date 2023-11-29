@@ -8,3 +8,9 @@ const sum = (x,y) =>
     return x+y;
 
 };
+
+//anonymous
+(function ()
+{
+    console.log("Helo");
+})(); //calling the function
